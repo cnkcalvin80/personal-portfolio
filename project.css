@@ -1,0 +1,14 @@
+body{
+    background: grey;
+}
+h1{
+    text-align: center;
+    color: rgb(251, 248, 248);
+}
+p{
+    text-align: center;
+    color: azure;
+}
+.project-grid{
+    background: image( young-);
+}
