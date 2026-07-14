@@ -9,9 +9,7 @@ p{
     text-align: center;
     color: azure;
 }
-.project-gridA{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-
+.cnk{
+    margin-bottom: 20px;
+    padding: 20px;
 }
