@@ -7,6 +7,25 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+img{
+    max-width: 100%;
+    height: auto;
+}
+.card{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+@media(width>=768px){
+    .card{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media(width>=1000px){
+    .card{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
 .navbar{
     background-color: rgb(249, 249, 252);
     width: 100%;
